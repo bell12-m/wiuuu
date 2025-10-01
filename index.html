@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body class="bodie">
+    <!--Navbar--> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Comfort Characters</a></li>
+                            <li><a class="dropdown-item" href="#">Favorite Animes</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/shorts/JGtNdSeHkSo">Literally me</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Caruseel ¿?--> 
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://i.pinimg.com/1200x/d3/7c/2c/d37c2c2e1471794aa65b283e881cbf57.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://i.pinimg.com/1200x/ad/b3/03/adb30374c241cc8bc1505d5e1d2f9aec.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://i.pinimg.com/1200x/c6/88/82/c68882379d58effab970912b49ef570d.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Caaards--> 
+    <h5 class="card-title">Comfort Characters:</h5>
+    <section class="cardss">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <img src="https://i.pinimg.com/1200x/09/29/1e/09291e6c634018985df76d512f720d49.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Monkey D. Luffy</h5>
+                    <p class="card-text">One Piece</p>
+                    <a href="#" class="btn btn-primary">Why?</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="https://i.pinimg.com/1200x/37/7a/69/377a692fa5144f4cd225038b9eb4ca56.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Izuku Midoria</h5>
+                    <p class="card-text">My Hero Academia.</p>
+                    <a href="#" class="btn btn-primary">Why?</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <img src="https://i.pinimg.com/1200x/de/84/07/de84073c1f29217bb86b5a9cd54e2658.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mitsuri Kanroji</h5>
+                    <p class="card-text">Kimetsu no Yaiba.</p>
+                    <a href="#" class="btn btn-primary">Why?</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="https://i.pinimg.com/1200x/01/05/b2/0105b23a1cc078e8b64db647fbf41409.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nacht Faust</h5>
+                    <p class="card-text">Black Clover.</p>
+                    <a href="#" class="btn btn-primary">idk</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/58/e4/10/58e41092c7004db3df5cfc866e075b75.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jinshi (>'-'<)</h5>
+                    <p class="card-text">The Apothecary Diaries.</p>
+                    <a href="#" class="btn btn-primary">idk</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="https://i.pinimg.com/1200x/b8/32/41/b8324108d6a5e523b2987def7785f0e9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Killua Zoldykc</h5>
+                    <p class="card-text">Hunter x Hunter.</p>
+                    <a href="#" class="btn btn-primary">idk</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- + grupo de lista-->
+     <div class="list-group">
+        <h5 class="card-title">Favs Animes  (_　_)。゜zｚＺ....wth</h5>        
+        <section class="recomen">
+            <a href="OnePiece.html" class="list-group-item list-group-item-action list-group-item-primary">One Piece</a>
+            <a href="MHA.html" class="list-group-item list-group-item-action list-group-item-secondary">My Hero Academia</a>
+            <a href="BSD.html" class="list-group-item list-group-item-action list-group-item-success">Bungou Stray Dogs</a>
+            <a href="BC.html" class="list-group-item list-group-item-action list-group-item-danger">Black Clover</a>
+            <a href="maomao.html" class="list-group-item list-group-item-action list-group-item-info">The Apothecary Diaries</a>
+            <a href="hikarunt.html" class="list-group-item list-group-item-action list-group-item-dark">The Summer Hikaru Died</a>
+        </section>
+    </div>
+    <!--En progreso, en construccion ¿? skjdjksd-->
+    <section class="loading">
+        <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+        </div>
+    </section> 
+    <!--Fooooooooter-->
+     <footer class="foo">
+        <p>&copy; 2025, sitio de Cosas que NADIE me pregunto. Todos los derechos reservados.</p>
+        <p>Contactanos: nomecontactes@muchasgracias.com</p>
+    </footer>
+</body>
+</html>

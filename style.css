@@ -1,0 +1,42 @@
+
+.bodie{
+    background-color: rgba(4, 64, 66, 0.288) ;
+}
+.container-fluid{
+    background-color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    color: rgb(4, 64, 66);
+}
+
+.carousel-inner img {
+    height: 850px;
+    width: 100%;
+}
+.cardss{
+    padding: 150px;
+}
+.card img{
+    height: 660%;
+    width: 60%;
+}
+
+.btn a{
+    background-color: rgb(4, 64, 66);
+}
+.recomen{
+    padding: 80px;
+}
+.loading{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 15px;               /* Espacio entre los spinners */
+    margin: 20px 0;
+}
+.foo{
+    padding: 10px;
+    color: rgb(112, 112, 112);
+    background-color:rgb(255, 255, 255) ;
+    text-align: center;
+        
+}

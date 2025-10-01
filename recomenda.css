@@ -1,0 +1,54 @@
+.onepi{
+    padding: 150px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.705)), url('https://i.pinimg.com/1200x/b7/36/2c/b7362cd4088205d4a71b062538e5b346.jpg');
+}
+.bnha{
+    padding: 150px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.705)), url('https://i.pinimg.com/1200x/bd/f1/36/bdf13683582ec2e28307df866563390e.jpg');
+}
+.bsd{
+    padding: 150px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.705)), url('https://i.pinimg.com/1200x/c9/5f/97/c95f97ea7637a0462c3f00494079444b.jpg');
+}
+.black{
+    padding: 150px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.705)), url('https://i.pinimg.com/1200x/cf/24/3f/cf243f9f011dd3c90a41f30976173433.jpg');
+}
+.jinshi{
+    padding: 150px;
+    color: aliceblue;
+    background-repeat: no-repeat;background-repeat: no-repeat;
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.705)), url('https://i.pinimg.com/736x/8f/4e/94/8f4e9406699f4018de352db5f0cb86b2.jpg');
+}
+.cosa{
+    padding: 150px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.705)), url('https://i.pinimg.com/736x/ee/3a/4a/ee3a4aa44767fab744816277c0f2bf17.jpg');
+}
